@@ -1,0 +1,106 @@
+body{
+  background-color:blanchedalmond;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+
+nav{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav ul{
+  display:flex;
+  align-items: center;
+  list-style-type: none;
+  height:60px;
+  background-color:black;
+  color:aliceblue;
+}
+
+nav ul li{
+  padding: 0 12px;
+}
+
+.container{
+  min-height: 60vh;
+  background-color: black;
+  color:white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display:flex;
+  margin: 23px auto;
+  width:70vw;
+  border-radius: 12px;
+  padding:34px;
+  background-image: url('headphones.png');
+  background-repeat: no-repeat;
+  background-position:280px;
+} 
+
+.bottom{
+  position: sticky;
+  height:100px;
+  background-color:black;
+  color:white;
+  bottom:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.icons{
+  margin-top:25px;
+}
+
+.icons i{
+  cursor:pointer;
+  padding:5px;
+}
+
+#progressBar{
+  width:80vw;
+  cursor: pointer;
+}
+
+.songItem{
+  height:50px;
+  display:flex;
+  background-color:white;
+  color:black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items:center;
+  border-radius: 34px;
+}
+.timestamp{
+  margin:0 23px;
+  cursor:pointer;
+}
+.songTitle{
+  margin:0 23px;
+}
+.songItemContainer{
+  margin-top:70px;
+}
+.songInfo{
+  position:absolute;
+  left:0;
+  margin-left:130px;
+  font-size:20px;
+}
+.footer{
+  background-color:brown;
+  color:white;
+  padding-left:20px;
+  position: sticky;
+  bottom:0;
+  justify-content: center;
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+.footer p{
+  font-size:20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
